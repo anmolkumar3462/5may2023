@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-radius: border-box;
+}
+@font-face {
+    font-family: 'anmolfont';
+    src: url(../font/belligerent.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'anmolfont1';
+    src: url(../font/MountainsofChristmas.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'anmolfont2';
+    src: url(../font/ShortStack-Regular.otf) format("opentype");
+}
+article{
+    border-bottom: 1px solid black;
+}
+img{
+    margin: 10px 0px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    margin: 5px 415px;
+    text-align: justify;
+    font-size: 15px;
+}
+h1.n1 {
+    color: rgb(253, 239, 120);
+    background-color: rgb(249, 97, 103);
+    height: 30px;
+    font-family: 'anmolfont';
+}
+h1.n2{
+    color: #3b1a5b;
+    background-color: #fef747;
+    height: 30px;
+    font-family: "anmolfont2";
+}
+h1.n3{
+    color: #eb4d36;
+    background-color: #201d1d;
+    height: 35px;
+    font-family: "anmolfont1";
+}
